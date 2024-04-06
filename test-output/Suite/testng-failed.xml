@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <parameter name="BrowserName" value="firefox"/>
+  <test parallel="none" name="Test(failed)" preserve-order="true">
+    <classes>
+      <class name="SeleniumDay20_DataProvider.TestScript2">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="TestCase1"/>
+        </methods>
+      </class> <!-- SeleniumDay20_DataProvider.TestScript2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
