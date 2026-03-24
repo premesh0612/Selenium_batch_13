@@ -20,7 +20,7 @@ public class ElementHighlightDemo {
 
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 
 		WebElement emailtextBox = driver.findElement(By.xpath("//input[@aria-label='Email or phone']"));
 

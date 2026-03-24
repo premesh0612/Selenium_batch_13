@@ -18,7 +18,7 @@ public class IframeDemo1 {
 		
 		driver.switchTo().frame("a077aa5e");
 		
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 		
 		WebElement image = driver.findElement(By.xpath("//img[@src='Jmeter720.png']"));
 		
