@@ -15,7 +15,7 @@ public class SeleniumInstallation {
 		
 		driver.get("https://practicetestautomation.com/practice-test-login/");
 
-		
+		System.out.println("Premesh git and github");
 		
 		Assert.assertTrue(false);
 	}
